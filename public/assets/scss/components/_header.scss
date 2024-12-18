@@ -1,0 +1,50 @@
+.header{
+    
+    #nav2 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nav1{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-collapse {
+        margin-right: 25%;
+        margin-left: 25%;
+    
+    }
+    
+    .itens_2 {
+        padding-left: 40px;
+    }
+    
+    .navbar {
+        font-family: var(--font-Montserrat);
+        background-color: var(--cor-roxo-claro);
+    }
+
+    .navbar2 {
+        background-color: var(--cor-roxo-escuro);
+    }
+
+    .navbar-brand{
+        width: 130px;
+    }
+
+    form{
+        padding-right: 30%;
+    }
+
+    form input{
+        width: 300px;
+        height: 40px;
+    }
+    
+
+    .btn{
+        border: none;
+    }
+
+}

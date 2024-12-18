@@ -1,0 +1,58 @@
+/*=============== Breakpoints dos cards ===============*/
+
+/* Celular */
+@media screen and (max-width: 320px){  
+   .card__data{
+      padding: 1rem;
+   }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px){
+   .card__content{
+      margin-inline: 3rem;
+   }
+
+   .swiper-button-next,
+   .swiper-button-prev {
+      display: block;
+   }
+}
+
+/* Pc */
+@media screen and (min-width: 1120px){
+   .card__container{
+      max-width: 1120px;
+   }
+
+   .swiper-button-prev{
+      left: -1rem;
+   }
+   .swiper-button-next{
+      right: -1rem;
+   }
+}
+
+
+
+@media (max-width: 700px) {
+   .container_register.text {
+       font-size: 30px;
+   }
+
+   .container_register form {
+       padding: 10px 0 0 0;
+   }
+
+   .container_register form .form-row {
+       display: block;
+   }
+
+   form .form-row .input-data {
+       margin: 35px 0 !important;
+   }
+
+   .submit-btn .input-data {
+       width: 40% !important;
+   }
+}

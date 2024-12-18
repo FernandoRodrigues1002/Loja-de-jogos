@@ -1,0 +1,23 @@
+/*=============== BASE ===============*/
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: var(--font-Montserrat);
+	background-color: var(--cor-roxo-escuro);
+	color: var(--white-color);
+}
+
+a{
+	text-decoration: none;
+	color: var(--dark-color);
+    font-family: var(--font-Montserrat);
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}

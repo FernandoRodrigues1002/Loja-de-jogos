@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+/*=============== Variaveis ===============*/
+:root{
+    /*========== Corlos ==========*/
+
+    /*HSL(hue, saturation, lightness)*/
+    --dark-color: hsl(212, 40%, 12%);
+    --white-color: hsl(212, 4%, 95%);
+    --cor-azul-escuro: hsl(219, 96%, 10%);
+    --cor-azul-claro: hsl(219, 100%, 36%);
+    --cor-roxo-escuro: hsl(247, 60%, 26%);
+    --cor-roxo-claro: hsl(247, 58%, 41%);
+    --cor-laranja-escuro: hsl(9, 69%, 54%);
+    --cor-laranja-claro: hsl(9, 99%, 64%);
+    --cor-branco-apagado: hsl(0, 0%, 82%);
+
+    /*========== Tipografia ==========*/
+    --body-font: 'Bai Jamjuree', sans-serif;
+    --font-Montserrat: 'Montserrat', sans-serif;
+    --p-font-size: 20px;
+    --h1-font-size: 40px;
+    --h1--bold-: 700;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+}
+ 

@@ -1,0 +1,60 @@
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');t
+
+footer {
+    width: 100%;
+    color: var(--white-color);
+    font-family: var(--font-Montserrat);
+}
+
+#footer_content{
+    margin-top: 200px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#redes{
+    font-size: 35px;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content {  
+    background-color: var(--cor-azul-escuro);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_content h2 > img{
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+    width: 250px;
+    height: 250px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-list .footer-link {
+    color: var(--white-color);
+    transition: all 0.4s;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}

@@ -1,0 +1,40 @@
+#mainSection{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionContainer{
+    &__main {
+        background-color: var(--cor-azul-escuro); /* Cor de fundo azul escuro */
+        border-radius: 10px; /* Raio de borda para bordas arredondadas */
+        padding: 20px;
+        width: auto;
+    }
+
+    &__h1{
+        font-size: var(--h1-font-size);
+        font-weight: 600;
+    }
+    
+    &__list {
+        list-style-type: none;
+        padding-top: 30px;
+    }
+
+    &__item p{
+        font-size: var(--p-font-size);
+        padding-top: 30px;
+    }
+    
+}
+
+#product_img {
+    width: 300px;
+}
+
+.iconeCoracao {
+    height: 40px;
+    margin-left: 40px;
+}

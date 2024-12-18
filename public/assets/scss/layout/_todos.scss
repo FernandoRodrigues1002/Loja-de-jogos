@@ -1,0 +1,26 @@
+.filter{
+    width: 15%;
+    margin-right: 400px;
+
+    select{
+        background-color: var(--cor-roxo-escuro);
+        color: var(--white-color);
+    }
+
+    option{
+        background-color: var(--cor-roxo-escuro);
+        color: var(--white-color);  
+    }
+
+    .form-control {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .form-control:focus {
+        outline: none;
+        color: var(--white-color);  
+    
+    }
+
+}

@@ -1,0 +1,50 @@
+.footer_content_cart{
+    position: flex;
+    bottom: 0;
+    width: 100%;
+}
+
+.principal-navbar{
+    width: 100%;
+    left: 0;
+    position: absolute;
+    
+}
+
+
+
+.compra-card{
+    background-color: var(--cor-azul-escuro);
+    
+    p{
+        color: var(--white-color);
+    }
+
+    hr{
+        color: var(--white-color); 
+    }
+}
+
+.carrinho_itens{
+    background-color: var(--cor-azul-escuro);
+}
+
+.itens_table{
+    background-color: var(--cor-azul-escuro);
+    
+    th{
+        background-color: var(--cor-azul-escuro);
+        color: var(--white-color);
+        padding-left: 40px;
+        padding-top: 35px;
+    }
+
+    td{
+        background-color: var(--cor-azul-escuro);
+        color: var(--white-color);
+        padding-left: 40px;
+    }
+    
+}
+
+
